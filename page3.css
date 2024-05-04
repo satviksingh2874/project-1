@@ -1,0 +1,118 @@
+*{
+    margin:0;
+    font-family: cursive;
+}
+:root{
+    --yellow-color: #FFE479;
+    --blue-color: #AACEF2;
+    --grey-color: #A8A8A8;
+    --pink-color: #E4C6EC;
+    --purple-color: #D7A0E4;
+}
+
+#searchbar{
+    height: 52px;
+    width: 972px;
+    position: absolute;
+    top: 34px;
+    left: 385px;
+    /* padding-left: 385px;
+    padding-top: 34px; */
+    font-size: 30px;
+    border-radius: 50px ;
+    border:3px black solid;
+
+}
+#loginbutton{
+    position: absolute;
+    top: 34px;
+    left: 1627px;
+    width: 157px;
+    font-size: 30px;
+    height: 53px;
+    border-radius: 50px ;
+    background-color: var(--purple-color);
+    /* border:3px black solid; */
+}
+header{
+    padding-top: 19px;
+    width:1920px;
+    height: 120px;
+    background-color: var(--yellow-color);
+}
+
+main{
+    height: 960px;
+    width: 1920px;
+    background-color: var(--yellow-color);
+}
+
+#genre1{
+    /* margin: 80px; */
+    position: absolute;
+    top: 153px;
+    left: 51px;
+    display: inline-block;
+    background-image: url(images.page3/genre_1.png);
+    height: 351px;
+    width: 351px;
+}
+#genre2{
+    position: absolute;
+    top: 153px;
+    left: 732px;
+    display: inline-block;
+    background-image: url(images.page3/genre_2.png);
+    height: 351px;
+    width: 351px;
+}
+#genre3{
+    position: absolute;
+    top: 153px;
+    left: 1403px;
+    display: inline-block;
+    background-image: url(images.page3/genre_3.png);
+    height: 351px;
+    width: 351px;
+}
+#genre4{
+    position: absolute;
+    top: 542px;
+    left: 51px;
+    display: inline-block;
+    background-image: url(images.page3/genre_4.png);
+    height: 351px;
+    width: 351px;
+}
+#genre5{
+    position: absolute;
+    top: 542px;
+    left: 729px;
+    display: inline-block;
+    background-image: url(images.page3/genre_5.png);
+    height: 351px;
+    width: 351px;
+}
+#genre6{
+    position: absolute;
+    top: 542px;
+    left: 1408px;
+    display: inline-block;
+    background-image: url(images.page3/genre_6.png);
+    height: 351px;
+    width: 351px;
+}
+#buttons{
+    font-size: 20px;
+    background-color: var(--purple-color);
+    opacity: 80%;
+    height: 53px;
+    width: 350px;
+    margin-top:285px;
+}
+
+a{
+    /* display: inline; */
+    
+    text-decoration: none;
+}
