@@ -65,7 +65,7 @@ main{
     position: absolute;
     top:185px;
     left: 314px;
-    background-image: url(images/image_1.png);
+    background-image: url(images.page1/image_1.png);
     background-size: cover;
     width: 424px;
     height: 387px;
@@ -107,7 +107,7 @@ main{
     position: absolute;
     top:185px;
     left: 1220px;
-    background-image: url(images/image_2.png);
+    background-image: url(images.page1/image_2.png);
     background-size: cover;
     width: 424px;
     height: 387px;
@@ -155,7 +155,7 @@ footer{
     background-color: black;
 }
 #quicky{
-    background-image: url(images/image_3.png);
+    background-image: url(images.page1/image_3.png);
     display: inline-block;
     
     font-size: 30px;
@@ -167,7 +167,7 @@ height: 292px;
 width: 387px;
 }
 #course{
-    background-image: url(images/image_4.png);
+    background-image: url(images.page1/image_4.png);
     font-size: 30px;
     position: absolute;
 top: 706px;
@@ -177,7 +177,7 @@ left:526px;
     width: 387px;
 }
 #contactus{
-    background-image: url(images/image_5.png);
+    background-image: url(images.page1/image_5.png);
     font-size: 30px;
     position: absolute;
 top: 706px;
