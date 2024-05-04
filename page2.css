@@ -1,0 +1,132 @@
+*{
+    margin:0;
+    font-family: cursive;
+}
+:root{
+    --yellow-color: #FFE479;
+    --blue-color: #AACEF2;
+    --grey-color: #A8A8A8;
+    --pink-color: #E4C6EC;
+    --purple-color: #D7A0E4;
+}
+
+#searchbar{
+    height: 52px;
+    width: 972px;
+    position: absolute;
+    top: 34px;
+    left: 385px;
+    /* padding-left: 385px;
+    padding-top: 34px; */
+    font-size: 30px;
+    border-radius: 50px ;
+    border:3px black solid;
+
+}
+#loginbutton{
+    position: absolute;
+    top: 34px;
+    left: 1627px;
+    width: 157px;
+    font-size: 30px;
+    height: 53px;
+    border-radius: 50px ;
+    background-color: var(--purple-color);
+    /* border:3px black solid; */
+}
+header{
+    padding-top: 19px;
+    width:1920px;
+    height: 120px;
+    background-color: var(--yellow-color);
+}
+
+main{
+    display: flex;
+    height: 540px;
+    width: 1920px;
+    background-color: var(--yellow-color);
+}
+
+#genre1{
+    display: inline-block;
+    height: 351px;
+    width: 351px;
+    background-image: url(images.page2/image_1.png);
+    position: relative;
+    top: 33px;
+    left: 51px;
+}
+
+#genre2{
+    display: inline-block;
+    height: 351px;
+    width: 351px;
+    background-image: url(images.page2/image_2.png);
+     position: relative;
+     top: 33px;
+     left: 440px;
+}
+
+#genre3{
+
+    height: 351px;
+    width: 351px;
+    background-image: url(images.page2/image_3.png);
+    position: relative;
+    top: 33px;
+    left:800px;
+}
+#button1{
+    font-size: 20px;
+    height: 53px;
+    width: 350px;
+background-color: var(--purple-color);
+opacity: 80%;
+margin-top: 285px;
+}
+
+
+footer{
+    height: 420px;
+    width: 1920px;
+    background-color: black;
+}
+#quicky{
+    background-image: url(images.page2/image_4.png);
+    display: inline-block;
+    /* padding-left: 15px; */
+    font-size: 30px;
+padding:5px;
+position: absolute;
+top: 706px;
+left:50px;
+height: 292px;
+width: 387px;
+}
+#course{
+    background-image: url(images.page2/image_5.png);
+    font-size: 30px;
+    position: absolute;
+top: 706px;
+left:526px;
+    display: inline-block;
+    height: 292px;
+    width: 387px;
+}
+#contactus{
+    background-image: url(images.page2/image_6.png);
+    font-size: 30px;
+    position: absolute;
+top: 706px;
+left:1002px;
+    display: flex;
+height: 292px;
+width: 387px;
+
+}
+a{
+    /* display: inline; */
+    
+    text-decoration: none;
+}
