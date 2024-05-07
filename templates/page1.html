@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Document</title>
-    <link rel="stylesheet" href="page2.css">
+    <link rel="stylesheet" href="{{url_for('static', filename="page1.css")}}">
 </head>
+
+
 <body>
+    
+    
     <header>
         <img src="images.page1/logo.png" alt="">
         <input type="text" name="" placeholder="Search By Keywords" id="searchbar">
         <button id="loginbutton">Login</button>
     </header>
+   
+   
+   
     <main>
-        <div id="genre1">
-<button id="button1">PAINT GENRE</button>
+        <div id="art1">
+            <div id="p1a1" style="padding-top: 15px;">ART SECTION</div>
+            <a href="{{url_for('page2')}}"id="p1b1">THE ART</a>
         </div>
-        <div id="genre2">
-<button id="button1">POTTERY GENRE</button>
+        <div id="art2">
+            <div id="p2a1" >ARTIST SECTION</div>
+            <button id="p2b1">THE ARTIST</button>
         </div>
-        <div id="genre3">
-<button id="button1">ABSTRACT GENRE</button>
-        </div>
-
     </main>
+
+
     <footer>
         <div id="quicky"></div>
         <div id="course"></div>
