@@ -38,6 +38,9 @@ header
     left: 1627px;
     width: 157px;
     font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 53px;
     border-radius: 50px ;
     background-color: var(--purple-color);
@@ -97,6 +100,9 @@ main{
     bottom: 0px;
     left: 0;
     background-color: rgba(221, 160, 221,0.85);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius:20px;
     width: 424px;
     height:54px;

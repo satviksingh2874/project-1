@@ -86,6 +86,15 @@ opacity: 80%;
 margin-top: 285px;
 }
 
+#button_1{
+    font-size: 20px;
+    height: 53px;
+    width: 350px;
+background-color: var(--purple-color);
+opacity: 80%;
+margin-top: 285px;
+}
+
 
 footer{
     height: 420px;

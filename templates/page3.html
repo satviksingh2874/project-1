@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="page3.css">
+    <link rel="stylesheet" href="{{url_for('static', filename="page3.css")}}">
 </head>
 <body>
     <header>
@@ -14,7 +14,7 @@
     </header>
     <main>
 <div id="genre1"><button id="buttons">MUSIC GENRE</button></div>
-<div id="genre2"><button id="buttons">DARK ART GENRE</button></div>
+<div id="genre2"><a id="buttons" href="{{url_for('page5')}}">DARK ART GENRE</a></div>
 <div id="genre3"><button id="buttons">PAINT GENRE</button></div>
 <div id="genre4"><button id="buttons">PODCAST GENRE</button></div>
 <div id="genre5"><button id="buttons">POETRY GENRE</button></div>
